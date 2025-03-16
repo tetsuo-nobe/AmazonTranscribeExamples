@@ -1,0 +1,3 @@
+Phrase	SoundsLike	IPA	DisplayAs
+COツー			CO2
+ファイルプログラムシステム			ファインプログラムシステム
