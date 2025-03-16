@@ -2,7 +2,7 @@ import time
 import boto3
 import datetime
 
-input_file = 'example.mp3'
+input_file = 'edo.mp3'
 input_bucket = 'tnobe-transcribe/input'
 output_bucket = 'tnobe-transcribe'
 output_key = 'output/'

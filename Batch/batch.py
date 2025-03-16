@@ -2,7 +2,7 @@ import time
 import boto3
 import datetime
 
-input_file = 'example.mp3'
+input_file = 'edo.mp3'
 input_bucket = 'tnobe-transcribe/input'
 output_bucket = 'tnobe-transcribe'
 output_key = 'output/'
@@ -44,7 +44,7 @@ def main():
     transcribe_client = boto3.client('transcribe')
     now = datetime.datetime.now()
     now_formatted = now.strftime('%Y%m%d%H%M%S')
-    job_name = f'Example-job-{now_formatted}'
+    job_name = f'batch-job-{now_formatted}'
     transcribe_file(job_name, file_uri, transcribe_client)
 
 

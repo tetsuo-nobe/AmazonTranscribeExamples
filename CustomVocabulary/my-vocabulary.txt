@@ -1,3 +1,2 @@
 Phrase	SoundsLike	IPA	DisplayAs
-COツー			CO2
-ファイルプログラムシステム			ファインプログラムシステム
+徳川義信			徳川慶喜
